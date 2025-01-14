@@ -8,10 +8,12 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-hook-form": "^7.54.2",
+    "react-is": "^19.0.0",
     "react-redux": "^8.0.0",
     "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
     "redux-form": "^8.3.10",
     "redux-thunk": "^2.4.1"
   },
