@@ -33,13 +33,13 @@ class EventsIndex extends Component {
           <tbody>{this.renderEvents()}</tbody>
         </table>
 
-        <Link to="/event/new">New Event</Link>
+        <Link to="/events/new">New Event</Link>
       </React.Fragment>
     );
   }
 }
 
-const mapStateToProps = (state) => ({ event: state.event });
+const mapStateToProps = (state) => ({ events: state.events });
 const mapDispatchToProps = { readEvents };
 
 export default connect(mapStateToProps, mapDispatchToProps)(EventsIndex);
