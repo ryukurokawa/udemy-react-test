@@ -78,12 +78,12 @@ class EventsShow extends Component {
 }
 
 const validate = (values) => {
-  const erros = {};
+  const errors = {};
 
-  if (!values.title) erros.title = 'Enter a title,please.';
-  if (!values.body) erros.body = 'Enter a body,please.';
+  if (!values.title) errors.title = 'Enter a title,please.';
+  if (!values.body) errors.body = 'Enter a body,please.';
 
-  return erros;
+  return errors;
 };
 
 const mapDispatchToProps = { deleteEvent };
